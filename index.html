@@ -154,7 +154,29 @@
     <a-camera shooter="bullets: normal; activeBulletType: normal" click-to-shoot></a-camera>
 
     <!-- Environment. -->
-    <a-entity environment="preset: forest; skyColor: #17acbd; horizonColor: #fbc173; lighting: point; lightPosition: -1.2 1 -0.55; fog: 0.799; flatShading: true; playArea: 0.89; ground: hills; groundYScale: 21.3; groundColor: #385f3c; groundColor2: #3f6943; dressing: stones; dressingAmount: 300; dressingColor: #576037; dressingScale: 0.13; dressingVariance: 0.08 0.01 0.1; dressingOnPlayArea: 1"></a-entity>
+    <a-entity id="enviro" position="0 -.001 0" environment="
+    preset: checkerboard; 
+    groundYScale: 100; 
+    fog: 0.04; 
+    lighting: point;
+    dressingAmount: 100; 
+    groundColor2: #008eb7; 
+    groundColor: #b34093; 
+    groundTexture: checkerboard;
+    ground: hills;
+    active: true; seed: 10; 
+    skyType: gradient; 
+    skyColor: #0084ff; 
+    horizonColor: #008eb7;
+    playArea: 1.2;
+    flatShading: false; 
+    dressing: arches;
+    dressingColor: #4f30f7; 
+    dressingScale: 0.2; 
+    dressingAmount: 40;
+    dressingOnPlayArea: 1; 
+    gridColor: #239893">
+    
     <a-entity light="color:#A2A5AF; intensity:0.1" position="-1.93 2.781 -2.322"></a-entity>
   </a-scene>
 
